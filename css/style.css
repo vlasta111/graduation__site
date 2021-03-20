@@ -34,6 +34,8 @@ body{
     margin-top: 5%;
 }
 
+
+
 .menu{
     display: flex;
     align-items: center;
@@ -53,6 +55,14 @@ ul a{
     text-decoration: none;
     color: #08090A;
     font-size: 16px;
+}
+
+.header__button{
+    color: #0B132A;
+    border-radius: 20px;
+    border: 2px solid  #ffffff;
+    padding: 16px 45px 16px 45px;
+    background-color: #8CC5F9;
 }
 
 .communication{
@@ -1036,6 +1046,13 @@ b{
     .features__decor {
         width: 85%;
     }
+    .network__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .network__list-item{
+        margin-top: 20px;
+    }
     .customer__slider {
         display: flex;
         flex-direction: column;
@@ -1264,6 +1281,9 @@ b{
         width: 200px;
         height: 50px;
     }
+    .footer{
+        background-color: #ffffff;
+    }
     .footer__company{
         margin-right: 20px;
     }
@@ -1386,13 +1406,21 @@ b{
         text-align: center;
     }
     .products__description{
-        width: 430px;
+        text-align: center;
     }
 }
 
 
 
 @media screen and (max-width:991px){
+    .team__list{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .team__list-item{
+        margin-left: 430px;
+    }
     .team__items{
         display: flex;
         flex-direction: column;
